@@ -104,6 +104,13 @@ img {
   margin-right: var(--mb-2);
 }
 
+.bd-grid2 {
+  max-width: 410px;
+  display: grid;
+  margin-left: var(--mb-2);
+  /* margin-right: var(--mb-2); */
+}
+
 .l-header {
   width: 100%;
   position: fixed;
@@ -197,10 +204,13 @@ img {
 .home__social {
   display: flex;
   flex-direction: column;
+  justify-items: center;
 }
 .home__social-icon {
+  margin-top:10px;
   width: max-content;
   margin-bottom: var(--mb-2);
+  justify-self: center;
   font-size: 1.5rem;
   color: var(--second-color);
 }
@@ -256,6 +266,10 @@ img {
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
+  text-align: center;
+}
+.skills__container2 {
+  row-gap: 0.5rem;
   text-align: center;
 }
 .skills__subtitle {
