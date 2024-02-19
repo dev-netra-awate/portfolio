@@ -441,6 +441,20 @@ img {
   line-height: 1.6;
 }
 
+.timeline-text2 {
+  color: #000000;
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.project-text {
+  color: #3e6ff4;
+  /* font-weight: var(--fw-300); */
+  /* line-height: 1.4; */
+  font-size: 15px;
+  margin:0%;
+}
+
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
